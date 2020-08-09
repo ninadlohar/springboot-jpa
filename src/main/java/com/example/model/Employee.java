@@ -8,11 +8,11 @@ public class Employee {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    @Column(name = "firstName")
+    @Column(name = "first_name")
     private String firstName;
-    @Column(name = "lastName")
+    @Column(name = "last_name")
     private String lastName;
-    @Column(name = "email")
+    @Column(name = "email_id")
     private String email;
 
     public Employee(long id, String firstName, String lastName, String email) {
